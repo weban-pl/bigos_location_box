@@ -13,3 +13,4 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+//= require 'bigos_location_box/bigos_location_box'
