@@ -18,7 +18,6 @@ module BigosLocationBox
         Setting["#{BigosLocationBox.name}.latitude"] = ""
         Setting["#{BigosLocationBox.name}.longitude"] = ""
         Setting["#{BigosLocationBox.name}.location_name"] = "Location name"
-        Setting["#{BigosLocationBox.name}.redirect_path"] = ""
         Setting["#{BigosLocationBox.name}.map_zoom"] = ""
         Setting["#{BigosLocationBox.name}.marker_icon_src"] = ""
         im = BigosApp::InstalledModule.find_or_create_by_name(BigosLocationBox.name)
