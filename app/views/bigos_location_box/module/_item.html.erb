@@ -1,7 +1,7 @@
-<%= hidden_field_tag :marker_icon, asset_path( BigosContactBox::Setting["#{BigosContactBox.name}.marker_icon_src"]) unless  BigosContactBox::Setting["#{BigosContactBox.name}.marker_icon_src"].blank? %>
-<%= hidden_field_tag :map_zoom,  BigosContactBox::Setting["#{BigosContactBox.name}.map_zoom"] unless  BigosContactBox::Setting["#{BigosContactBox.name}.map_zoom"].blank? %>
-<%= hidden_field_tag :latitude,  BigosContactBox::Setting["#{BigosContactBox.name}.latitude"] %>
-<%= hidden_field_tag :longitude, BigosContactBox::Setting["#{BigosContactBox.name}.longitude"] %>
-<%= hidden_field_tag :location_name, BigosContactBox::Setting["#{BigosContactBox.name}.location_name"] %>
+<%= hidden_field_tag :marker_icon, asset_path( BigosLocationBox::Setting["#{BigosContactBox.name}.marker_icon_src"]) unless  BigosLocationBox::Setting["#{BigosLocationBox.name}.marker_icon_src"].blank? %>
+<%= hidden_field_tag :map_zoom,  BigosLocationBox::Setting["#{BigosLocationBox.name}.map_zoom"] unless  BigosLocationBox::Setting["#{BigosLocationtBox.name}.map_zoom"].blank? %>
+<%= hidden_field_tag :latitude,  BigosLocationBox::Setting["#{BigosLocationBox.name}.latitude"] %>
+<%= hidden_field_tag :longitude, BigosLocationBox::Setting["#{BigosLocationBox.name}.longitude"] %>
+<%= hidden_field_tag :location_name, BigosLocationBox::Setting["#{BigosLocationBox.name}.location_name"] %>
 <div id="contact-box-map-canvas" style="width:400px; height: 400px">
 </div>
