@@ -1,4 +1,4 @@
-module BigosLocationtBox
+module BigosLocationBox
   module Generators
 
     module ViewPathTemplates #:nodoc:
